@@ -1,0 +1,157 @@
+html, body  {
+  height: 100%;
+  width: 100%;
+}
+
+body  {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container  {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.tableName-container  {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  padding: 20px 100px;
+  background-color: #7a7b7c;
+  border-radius: 3px;
+  color: #fff;
+}
+
+#tableName-form {
+  padding-top: 15px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.tableName-form-item  {
+  flex: 1;
+}
+
+#add-field-form {
+  display: flex;
+  align-items: center;
+  flex-grow: 10;
+}
+
+.create-table-title {
+  width: 300px;
+  font-size: 20px;
+}
+
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #edeeef;
+  width: 200px;
+  text-align: center;
+  border-radius: 3px;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+#sidebar-header {
+  width: 300px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sidebarFields-container  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebarFields  {
+  background-color: #edeeef;
+  font-size: 15px;
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sidebarFields:hover  {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#remove-field-btn {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.btn:active  {
+  transform: translateY(1px);
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.buildRules-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 10px 0px;
+  flex: 1;
+}
+
+.buildRules-header  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buildRules-title {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+
+.buildRules-body, .selectSource-container, .setConditions-container  {
+  padding: 15px 25px;
+}
+
+#save-rules-btn {
+  margin: 10px;
+  width: 150px;
+}
+
+.selectSource-menus {
+  display: flex;
+}
+
+.select-table {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-table-horizontal  {
+  margin-right: 25px;
+}
+
+.setConditions-container  {
+  display: flex;
+  flex-direction: column;
+}
+
+.and-or {
+  margin-top: 10px
+}
+
+.input-shrink {
+  height: 20px;
+}
